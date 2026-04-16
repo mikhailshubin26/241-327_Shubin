@@ -50,3 +50,9 @@ services:
 volumes:
   postgres_data:
   static_volume:
+
+secrets:
+  server_key:
+      file: ./certs/server.key
+  server_cert:
+    file:/
